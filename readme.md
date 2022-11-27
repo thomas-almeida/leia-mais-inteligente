@@ -1,5 +1,5 @@
 # Leia Mais Inteligente
-#####Autor: Thomas Almeida
+<p>Autor: Thomas Almeida</p>
 
 <h4><i> Este leia mais tem como objetivo identificar automaticamente quando é realmente necessário numa pagina de pesquisa que contém conteúdo.</i></h4>
 
