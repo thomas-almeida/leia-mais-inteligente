@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-content {
+    width: 80%;
+    padding: 20px;
+    margin: 30px;
+}
+
+.leia-mais {
+    transition: 0.5s;
+}
+
+h1 {
+    padding-left: 22px;
+    color: #333;
+}
+
+.leia-mais {
+    line-height: 23px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.remove-styles{
+    margin: 10px;
+    padding: 20px;
+    display: block;
+    overflow: none;
+    -webkit-box-orient: none;
+    -webkit-line-clamp: none;
+}
+
+.btn-field {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #333;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    border: none;
+    color: #fff;
+    box-shadow: 2px 3px 8px #2c2c2c3b;
+    transform: scale(1.1);
+}
